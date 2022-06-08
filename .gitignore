@@ -1,9 +1,9 @@
 #state files
-.terraform.tfstate
-.terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
 
 #providers and modules
-.terraform/
+**/.terraform/*
 
 #keys
 mykey
@@ -11,3 +11,7 @@ mykey.pub
 
 #logs
 logs.txt
+
+#tfvars file
+*.tfvars
+*.tfvars.json
