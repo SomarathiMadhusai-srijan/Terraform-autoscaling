@@ -1,6 +1,6 @@
 #state files
-.terraform.tfstate
-.terraform.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
 
 #providers and modules
 .terraform/
